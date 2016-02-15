@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Font-Awesome
 Version  : 4.3.0.0
-Release  : 10
+Release  : 11
 URL      : https://pypi.python.org/packages/source/X/XStatic-Font-Awesome/XStatic-Font-Awesome-4.3.0.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/X/XStatic-Font-Awesome/XStatic-Font-Awesome-4.3.0.0.tar.gz
 Summary  : Font-Awesome 4.3.0 (XStatic packaging standard)
