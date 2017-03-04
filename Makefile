@@ -1,5 +1,5 @@
 PKG_NAME := XStatic-Font-Awesome
-URL := https://pypi.python.org/packages/source/X/XStatic-Font-Awesome/XStatic-Font-Awesome-4.5.0.0.tar.gz
-ARCHIVES :=
+URL := http://pypi.debian.net/XStatic-Font-Awesome/XStatic-Font-Awesome-4.7.0.0.tar.gz
+
 
 include ../common/Makefile.common
