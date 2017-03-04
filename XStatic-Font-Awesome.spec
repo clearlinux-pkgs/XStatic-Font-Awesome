@@ -4,12 +4,12 @@
 #
 Name     : XStatic-Font-Awesome
 Version  : 4.7.0.0
-Release  : 17
+Release  : 18
 URL      : http://pypi.debian.net/XStatic-Font-Awesome/XStatic-Font-Awesome-4.7.0.0.tar.gz
 Source0  : http://pypi.debian.net/XStatic-Font-Awesome/XStatic-Font-Awesome-4.7.0.0.tar.gz
 Summary  : Font-Awesome 4.7.0 (XStatic packaging standard)
 Group    : Development/Tools
-License  : 1.1 MIT OFL OFL-1.1 SIL
+License  : MIT OFL-1.1
 Requires: XStatic-Font-Awesome-python
 BuildRequires : pbr
 BuildRequires : pip
@@ -36,12 +36,12 @@ python components for the XStatic-Font-Awesome package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1488596048
+export SOURCE_DATE_EPOCH=1488596212
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1488596048
+export SOURCE_DATE_EPOCH=1488596212
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
