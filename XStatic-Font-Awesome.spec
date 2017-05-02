@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Font-Awesome
 Version  : 4.7.0.0
-Release  : 18
+Release  : 19
 URL      : http://pypi.debian.net/XStatic-Font-Awesome/XStatic-Font-Awesome-4.7.0.0.tar.gz
 Source0  : http://pypi.debian.net/XStatic-Font-Awesome/XStatic-Font-Awesome-4.7.0.0.tar.gz
 Summary  : Font-Awesome 4.7.0 (XStatic packaging standard)
