@@ -4,12 +4,12 @@
 #
 Name     : XStatic-Font-Awesome
 Version  : 4.7.0.0
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/e5/28/34ced5dd65f1cb7b21a156a88f36e9ce37efd5d96bc2d9dca82f86103bd3/XStatic-Font-Awesome-4.7.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e5/28/34ced5dd65f1cb7b21a156a88f36e9ce37efd5d96bc2d9dca82f86103bd3/XStatic-Font-Awesome-4.7.0.0.tar.gz
 Summary  : Font-Awesome 4.7.0 (XStatic packaging standard)
 Group    : Development/Tools
-License  : 1.1 MIT OFL OFL-1.1 SIL
+License  : MIT OFL-1.1
 Requires: XStatic-Font-Awesome-python3
 Requires: XStatic-Font-Awesome-python
 BuildRequires : buildreq-distutils3
@@ -58,7 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532378824
+export SOURCE_DATE_EPOCH=1532378902
 python3 setup.py build -b py3
 
 %install
